@@ -3,4 +3,4 @@ lst = []
 for i in range(n):
 	if i % 2 == 0:
 		lst.append(i)
-print(*lst)
+print("Парні числа у вказаному вами діапазоні:", lst)
