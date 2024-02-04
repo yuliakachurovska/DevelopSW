@@ -1,0 +1,6 @@
+n = int(input("Введіть будь яке число: ")
+lst = []
+for i in range(n):
+	if i % 2 == 0:
+		lst.append(i)
+print(*lst)
